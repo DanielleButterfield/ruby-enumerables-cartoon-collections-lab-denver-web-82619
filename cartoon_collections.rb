@@ -18,6 +18,7 @@ def long_planeteer_calls(words)
   while words[count] do
     if words[count].length >= 4
       longer_than_four = true
+      count += 1
     else
       count += 1
     end
