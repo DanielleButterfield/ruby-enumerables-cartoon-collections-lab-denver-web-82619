@@ -37,5 +37,5 @@ def find_the_cheese(string_cheese)
       end
     end
    }
-   return "nil"
+   return nil
 end
