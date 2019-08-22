@@ -28,5 +28,5 @@ def find_the_cheese(string_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_test = string_cheese & cheese_types
-  return cheese_test.to_s
+  return cheese_test.join
 end
