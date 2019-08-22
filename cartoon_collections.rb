@@ -9,6 +9,7 @@ end
 def summon_captain_planet(planeteers)
   go_planet = []
   planeteers.map {|element| go_planet.push("#{element}.capitalize !")}
+  return go_planet
 end
 
 def long_planeteer_calls(words)
