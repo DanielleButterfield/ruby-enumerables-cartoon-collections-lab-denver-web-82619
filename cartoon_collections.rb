@@ -29,8 +29,10 @@ def find_the_cheese(string_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   count = 0
   cheese_types.map { |e|
-    if e == cheese_types[count]
-      return e
+    while cheese_types[count] do
+      if e == cheese_types[count]
+        return e
+      end
     end
     }
 end
