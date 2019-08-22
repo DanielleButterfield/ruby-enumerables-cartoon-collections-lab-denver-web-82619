@@ -30,7 +30,7 @@ def find_the_cheese(string_cheese)
   count1 = 0
   count2 = 1
   if string_cheese[count2] == cheese_types[count1]
-    return string_cheese[1]
+    return string_cheese[count2]
   else
     return nil
   end
