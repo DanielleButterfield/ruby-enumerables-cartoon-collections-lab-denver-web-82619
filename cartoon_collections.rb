@@ -1,5 +1,7 @@
 def roll_call_dwarves(dwarf_array)
-  dwarf_array.each do |dwarf_order| puts "#{dwarf_order.capitalize}"
+  dwarf_array.each do |dwarf_order|
+    puts "#{dwarf_order.capitalize}"
+  end
 end
 
 def summon_captain_planet# code an argument here
