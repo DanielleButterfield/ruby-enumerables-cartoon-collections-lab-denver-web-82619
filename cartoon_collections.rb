@@ -13,15 +13,16 @@ def summon_captain_planet(planeteers)
 end
 
 def long_planeteer_calls(words)
+  longer_than_four = false
   count = 0
   while words[count] do
     if words[count].length >= 4
-      return true
+      longer_than_four = true
     else
       count += 1
     end
   end
-  return true
+  return longer_than_four
 end
 
 def find_the_cheese# code an argument here
