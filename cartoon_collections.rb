@@ -24,7 +24,18 @@ def long_planeteer_calls(words)
   return false
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(string_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  count = 0
+  while string_cheese[count] do
+    cheese_types.map {|n|
+      if string_cheese[count] == n
+        return string_cheese[count]
+      else
+        count += 1
+      end
+    }
+  end
+  return nil
 end
