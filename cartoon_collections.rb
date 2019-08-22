@@ -28,15 +28,5 @@ def find_the_cheese(string_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   count = 0
-  string_cheese.map { |e|
-    while cheese_types[count] do
-      c = cheese_types[count]
-      if e.include?("cheddar")
-        return c
-      else
-        puts c
-        count += 1
-      end
-    end
-   }
+  return string_cheese
 end
