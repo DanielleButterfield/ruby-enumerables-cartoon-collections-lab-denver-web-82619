@@ -35,7 +35,6 @@ def find_the_cheese(string_cheese)
       else
         count += 1
       end
-      return nil
     end
     }
 end
