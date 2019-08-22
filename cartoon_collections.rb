@@ -1,5 +1,7 @@
 def roll_call_dwarves(dwarf_array)
-  dwarf_array.each do |dwarf_order|
+  dwarf_array.each_with_index {|item, index|
+    dwarf_array[item] = index
+    }
     puts "#{dwarf_order.capitalize}"
   end
 end
