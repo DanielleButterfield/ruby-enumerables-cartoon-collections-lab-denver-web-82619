@@ -10,8 +10,14 @@ def summon_captain_planet(go_planet)
   go_planet.map {|element| puts "#{element}.capitalize!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(words)
+  count = 0
+  while words[count] do
+    if words[count].length >= 4
+      return true
+    end
+  end
+  return false
 end
 
 def find_the_cheese# code an argument here
