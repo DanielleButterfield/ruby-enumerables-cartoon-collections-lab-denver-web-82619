@@ -3,7 +3,6 @@ def roll_call_dwarves(dwarf_array)
     dwarf_array[item] = index
     }
     puts "#{dwarf_order.capitalize}"
-  end
 end
 
 def summon_captain_planet# code an argument here
