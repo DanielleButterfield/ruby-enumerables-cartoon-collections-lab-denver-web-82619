@@ -31,7 +31,7 @@ def find_the_cheese(string_cheese)
   cheese_types.map { |e|
     while cheese_types[count] do
       if e == cheese_types[count]
-        return e
+        return cheese_types[count]
       else
         count += 1
       end
