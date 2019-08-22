@@ -1,5 +1,4 @@
-def roll_call_dwarves(dwarf_array)
-  dwarf_array.each do |dwarves| puts "#{dwarves.capitalize}"
+def roll_call_dwarves
 end
 
 def summon_captain_planet# code an argument here
