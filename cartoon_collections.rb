@@ -3,6 +3,7 @@ def roll_call_dwarves(dwarf_array)
   dwarf_array.each do |dwarf|
     puts "#{index}. #{dwarf.capitalize}"
     index += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
