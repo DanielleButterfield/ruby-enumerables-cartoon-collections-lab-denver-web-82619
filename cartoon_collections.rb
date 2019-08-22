@@ -34,6 +34,7 @@ def find_the_cheese(string_cheese)
       if e.include?("cheddar")
         return c
       else
+        puts c
         count += 1
       end
     end
