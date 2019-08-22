@@ -32,7 +32,7 @@ def find_the_cheese(string_cheese)
     while cheese_types[count] do
       c = cheese_types[count]
       if e.include?(c)
-        return cheese_types[count]
+        return c
       else
         count += 1
       end
