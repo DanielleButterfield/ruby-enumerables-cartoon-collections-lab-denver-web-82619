@@ -29,7 +29,7 @@ def find_the_cheese(string_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   count = 0
   while string_cheese[count] do
-    cheese_types.map {|n|
+    cheese_types.each {|n|
       if string_cheese[count] == n
         return string_cheese[count]
       else
